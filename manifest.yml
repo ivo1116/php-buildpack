@@ -45,6 +45,7 @@ dependencies:
   sha256: '04904a9ddc45bab06b80fa6c32671e82d8edfbaecf8dc943720db7b5c790ec8d'
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   osl: https://docs.appdynamics.com/display/DASH/Legal+Notices
   source_sha256: '04904a9ddc45bab06b80fa6c32671e82d8edfbaecf8dc943720db7b5c790ec8d'
 - name: composer
@@ -53,6 +54,7 @@ dependencies:
   sha256: f446ea719708bb85fcbf4ef18def5d0515f1f9b4d703f6d820c9c1656e10a2f2
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://github.com/composer/composer/releases/download/2.8.12/composer.phar
   source_sha256: f446ea719708bb85fcbf4ef18def5d0515f1f9b4d703f6d820c9c1656e10a2f2
 - name: httpd
@@ -61,6 +63,7 @@ dependencies:
   sha256: 22855b4397adef1778aa58fcf6a52e9d90fb99953b260dfccbf97b88d86e4278
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://dlcdn.apache.org/httpd/httpd-2.4.66.tar.bz2
   source_sha256: 94d7ff2b42acbb828e870ba29e4cbad48e558a79c623ad3596e4116efcfea25a
 - name: newrelic
@@ -69,6 +72,7 @@ dependencies:
   sha256: e840111f3c4122745cc0ee4e656aab3774b6733373be5db01c404dc2bae855c4
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   osl: https://docs.newrelic.com/docs/licenses/product-or-service-licenses/new-relic-apm/php-agent-licenses
 - name: nginx
   version: 1.26.3
@@ -76,6 +80,7 @@ dependencies:
   sha256: 78ba6963f4e77a746547bac843047b50237e3574100cb8da2ca1249a0e814a02
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: http://nginx.org/download/nginx-1.26.3.tar.gz
   source_sha256: 69ee2b237744036e61d24b836668aad3040dda461fe6f570f1787eab570c75aa
 - name: nginx
@@ -84,6 +89,7 @@ dependencies:
   sha256: 292d08531aa8d15f7ac239871987be7b52d36152fbb0cf3f5329627f3a778a2d
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: http://nginx.org/download/nginx-1.27.5.tar.gz
   source_sha256: e96acebb9c2a6db8a000c3dd1b32ecba1b810f0cd586232d4d921e376674dd0e
 - name: php
@@ -92,6 +98,7 @@ dependencies:
   sha256: 51db527bb2fbaac31dfacbeb5e02dd1d6d32399520ccee0aa6bc683ba1103d11
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://php.net/distributions/php-8.1.32.tar.gz
   source_sha256: 4846836d1de27dbd28e89180f073531087029a77e98e8e019b7b2eddbdb1baff
   dependencies:
@@ -219,6 +226,7 @@ dependencies:
   sha256: 924f1540a7d4c8cd3f81a99de7731c9aa48c0c27a0a370532a0e4ab7de8713f6
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://php.net/distributions/php-8.1.34.tar.gz
   source_sha256: 3c5b060ec8e0d5dd1d8237823f3161cc8bc5342aab3c46893eba9857759c4bfa
   dependencies:
@@ -347,6 +355,7 @@ dependencies:
   sha256: f4b5803c90630cf2066d0e8f04425eaa405a12b797db6ba827c248d379a8c316
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://php.net/distributions/php-8.2.28.tar.gz
   source_sha256: 3318300888de5023720cc84efad5e005e53f30b5f0072fae65a750dabcaf6ec3
   dependencies:
@@ -472,6 +481,7 @@ dependencies:
   sha256: 78fafa3bb3de553c509ac1d5754bbc578d4d7bc30faef4feaf2f2c672db3dfaa
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://php.net/distributions/php-8.2.29.tar.gz
   source_sha256: 0b27d330769d4bc67b1d8864347c38744b289664a946919c3ddb2235d326b3cd
   dependencies:
@@ -598,6 +608,7 @@ dependencies:
   sha256: 699bf9bc863a8d0707fbc422d0351cdd7b1bc865b067ecc146838589c06105e7
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://php.net/distributions/php-8.3.21.tar.gz
   source_sha256: e7f1748c1fa3d2bf8ef2e00508bd62325ba68c3b830b253bc561225a9ba5457d
   dependencies:
@@ -722,6 +733,7 @@ dependencies:
   sha256: ede3c0f7e1d25f573c308cbcf9a65461ffbde9b1842950c3b9327ea40be0af0e
   cf_stacks:
   - cflinuxfs4
+  - cflinuxfs5
   source: https://php.net/distributions/php-8.3.30.tar.gz
   source_sha256: e587dc95fb7f62730299fa7b36b6e4f91e6708aaefa2fff68a0098d320c16386
   dependencies:
