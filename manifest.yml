@@ -98,7 +98,6 @@ dependencies:
   sha256: 51db527bb2fbaac31dfacbeb5e02dd1d6d32399520ccee0aa6bc683ba1103d11
   cf_stacks:
   - cflinuxfs4
-  - cflinuxfs5
   source: https://php.net/distributions/php-8.1.32.tar.gz
   source_sha256: 4846836d1de27dbd28e89180f073531087029a77e98e8e019b7b2eddbdb1baff
   dependencies:
@@ -226,7 +225,6 @@ dependencies:
   sha256: 924f1540a7d4c8cd3f81a99de7731c9aa48c0c27a0a370532a0e4ab7de8713f6
   cf_stacks:
   - cflinuxfs4
-  - cflinuxfs5
   source: https://php.net/distributions/php-8.1.34.tar.gz
   source_sha256: 3c5b060ec8e0d5dd1d8237823f3161cc8bc5342aab3c46893eba9857759c4bfa
   dependencies:
@@ -355,7 +353,6 @@ dependencies:
   sha256: f4b5803c90630cf2066d0e8f04425eaa405a12b797db6ba827c248d379a8c316
   cf_stacks:
   - cflinuxfs4
-  - cflinuxfs5
   source: https://php.net/distributions/php-8.2.28.tar.gz
   source_sha256: 3318300888de5023720cc84efad5e005e53f30b5f0072fae65a750dabcaf6ec3
   dependencies:
@@ -481,7 +478,6 @@ dependencies:
   sha256: 78fafa3bb3de553c509ac1d5754bbc578d4d7bc30faef4feaf2f2c672db3dfaa
   cf_stacks:
   - cflinuxfs4
-  - cflinuxfs5
   source: https://php.net/distributions/php-8.2.29.tar.gz
   source_sha256: 0b27d330769d4bc67b1d8864347c38744b289664a946919c3ddb2235d326b3cd
   dependencies:
@@ -608,7 +604,6 @@ dependencies:
   sha256: 699bf9bc863a8d0707fbc422d0351cdd7b1bc865b067ecc146838589c06105e7
   cf_stacks:
   - cflinuxfs4
-  - cflinuxfs5
   source: https://php.net/distributions/php-8.3.21.tar.gz
   source_sha256: e7f1748c1fa3d2bf8ef2e00508bd62325ba68c3b830b253bc561225a9ba5457d
   dependencies:
@@ -728,12 +723,46 @@ dependencies:
   - name: zlib
     version: 
 - name: php
+  version: 8.3.21
+  uri: https://github.com/ivo1116/php-buildpack/releases/download/v5.0.3-cflinuxfs5/php_8.3.21_linux_x64_cflinuxfs5.tgz
+  sha256: 7f144365cb66ef4ff60cf5c51a9146948abd75db8ec7f6f6dfcf71b5171b7f7a
+  cf_stacks:
+  - cflinuxfs5
+  source: https://php.net/distributions/php-8.3.21.tar.gz
+  source_sha256: e7f1748c1fa3d2bf8ef2e00508bd62325ba68c3b830b253bc561225a9ba5457d
+  dependencies:
+  - name: bz2
+  - name: curl
+  - name: exif
+  - name: fileinfo
+  - name: ftp
+  - name: gd
+  - name: gettext
+  - name: gmp
+  - name: intl
+  - name: mbstring
+  - name: mysqli
+  - name: opcache
+  - name: openssl
+  - name: pcntl
+  - name: pdo
+  - name: pdo_mysql
+  - name: pdo_pgsql
+  - name: pdo_sqlite
+  - name: pgsql
+  - name: readline
+  - name: soap
+  - name: sockets
+  - name: sodium
+  - name: xsl
+  - name: zip
+  - name: zlib 
+- name: php
   version: 8.3.30
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php_8.3.30_linux_x64_cflinuxfs4_ede3c0f7.tgz
   sha256: ede3c0f7e1d25f573c308cbcf9a65461ffbde9b1842950c3b9327ea40be0af0e
   cf_stacks:
   - cflinuxfs4
-  - cflinuxfs5
   source: https://php.net/distributions/php-8.3.30.tar.gz
   source_sha256: e587dc95fb7f62730299fa7b36b6e4f91e6708aaefa2fff68a0098d320c16386
   dependencies:
